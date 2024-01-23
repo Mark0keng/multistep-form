@@ -1,0 +1,59 @@
+@import "../../../../styles/base.scss";
+
+.subtitle {
+  color: $cool-gray;
+  padding-bottom: 20px;
+}
+
+.summarySection {
+  background-color: $magnolia;
+  padding: 24px;
+  border-radius: 10px;
+}
+
+.mainItem {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid $light-gray;
+}
+
+.changeNav {
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.addonItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0px;
+}
+
+.addonName {
+  font-size: 16px;
+  color: $cool-gray;
+}
+
+.addonPrice {
+  font-size: 16px;
+  color: $marine-blue;
+}
+
+.totalSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.totalName {
+  font-size: 16px;
+  color: $cool-gray;
+}
+
+.totalPrice {
+  font-size: 18px;
+  font-weight: 700;
+  color: $purplish-blue;
+}

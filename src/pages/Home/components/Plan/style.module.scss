@@ -1,0 +1,111 @@
+@import "../../../../styles/base.scss";
+
+.subtitle {
+  color: $cool-gray;
+  padding-bottom: 20px;
+}
+
+.planCard {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid $marine-blue;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.planCardActive {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: $magnolia;
+  border: 1px solid $marine-blue;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.planIcon1 {
+  content: url("../../../../assets/images/icon-arcade.svg");
+}
+
+.planIcon2 {
+  content: url("../../../../assets/images/icon-advanced.svg");
+}
+
+.planIcon3 {
+  content: url("../../../../assets/images/icon-pro.svg");
+}
+
+.radioPlan input {
+  display: none;
+}
+
+.planName {
+  color: $marine-blue;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.planPrice {
+  color: $cool-gray;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.switch[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.switchLabel {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 48px;
+  height: 24px;
+  background: $purplish-blue;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+.switchLabel:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+.switch:checked + .switchLabel {
+  background: $marine-blue;
+}
+
+.switch:checked + .switchLabel:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+.switchBox {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  text-align: center;
+}
+
+.subLabel {
+  color: $cool-gray;
+}
+
+.subLabelActive {
+  color: $marine-blue;
+}

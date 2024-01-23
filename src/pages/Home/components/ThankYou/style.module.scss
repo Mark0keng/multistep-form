@@ -1,0 +1,21 @@
+@import "../../../../styles/base.scss";
+
+.mainSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 64px;
+}
+
+.icon {
+  content: url("../../../../assets/images/icon-thank-you.svg");
+}
+
+.title {
+  padding: 32px 0px;
+}
+
+.desc {
+  color: $cool-gray;
+}

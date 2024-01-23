@@ -1,0 +1,35 @@
+@import "./color.scss";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  color: $marine-blue;
+}
+
+@mixin directionToX {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin directionToY {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin directionToYReverse {
+  display: flex;
+  flex-direction: column-reverse;
+}

@@ -1,0 +1,43 @@
+@import "../../../../styles/base.scss";
+
+.subtitle {
+  color: $cool-gray;
+  padding-bottom: 20px;
+}
+
+.addonCard {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid $cool-gray;
+  padding: 10px;
+}
+
+.addonName {
+  color: $marine-blue;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.addonDesc {
+  color: $cool-gray;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.checkSection {
+  display: flex;
+}
+
+.priceSection {
+  align-self: center;
+}
+
+.addonPrice {
+  color: $cool-gray;
+  font-weight: 400;
+  font-size: 14px;
+}
